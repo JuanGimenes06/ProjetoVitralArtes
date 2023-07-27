@@ -1,0 +1,105 @@
+@font-face { font-family: 'sans-bold';
+    src: url(Font/OpenSans-Bold.ttf);}
+@font-face {font-family: 'sans-regular';
+    src: url(Font/OpenSans-Regular.ttf);}
+@font-face {font-family: 'sans-semibold';
+    src: url(Font/OpenSans-SemiBold.ttf);}
+@font-face {font-family: 'poppins-bold';
+    src: url(Font/Poppins-Bold.ttf);}
+@font-face {font-family: 'poppins-regular';
+    src: url(Font/Poppins-Regular.ttf);}
+@font-face {font-family: 'poppins-semibold';
+    src: url(Font/Poppins-SemiBold.ttf);}
+@font-face {font-family: 'roboto-bold';
+    src: url(Font/Roboto-Bold.ttf);}
+@font-face {font-family: 'roboto-medium';
+    src: url(Font/Roboto-Medium.ttf);}
+@font-face {font-family: 'roboto-regular';
+    src: url(Font/Roboto-Regular.ttf);}
+@font-face {font-family: 'roboto-semibold';
+    src: url(Font/RobotoMono-SemiBold.ttf);}
+/* ******* */
+.conteiner{
+    margin: 0 150px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;}
+.contato{
+    display: flex;
+    background-color: #106EEA;
+    padding: 5px 200px;}
+.contato .texto{
+    color:#fff;
+    margin-right: 100px;
+    font: 400 20px 'sans-regular', sans-serif}
+.nome,
+.logo{
+    font: 700 45px 'poppins-bold', sans-serif;
+    text-align: center;}
+.item{
+    font: 400 22px 'sans-regular', sans-serif;
+    color:#000;
+    margin: 0 10px;}
+.fundo{
+    background-image: url(img/Vitral.png);
+    width:100% ;
+    padding: 0 200px;
+    height: 430px;
+    display: flex;
+    align-items: end;
+    flex-direction: column;
+    justify-content: center;}
+.fundo .subtexto{
+    font: 400 40px 'poppins-regular';
+    text-align: center;}
+/* ******* */
+#nos{
+    margin: 150px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;}
+#nos .conteudo .titulo{
+    font: 700 35px 'roboto-medium', sans-serif ;
+    text-align: center;}
+#nos .conteudo .texto{
+    font: 400 24px 'sans-regular', sans-serif;
+    text-align: justify;
+    margin-top: 10px;}
+#nos .conteiner{
+    flex-wrap: nowrap;}
+#nos .imagem img{
+    width: 445px;
+    height: auto;}
+#nos .conteudo{
+    margin-right: 50px;
+    display: flex;
+    flex-direction: column;}
+.caixas{
+    display: flex;
+    flex-wrap: nowrap; 
+    margin: 100px 0;}
+.caixa{
+    width: 254px;
+    height: 254px;
+    border: #8CA9CE solid 1px;
+    border-radius: 10px;
+    margin-right: 40px;
+    background-color:  #F1F6FE;
+    display: flex;
+    align-items: center;
+    flex-direction: column;}
+.icone{
+    width: 100px;
+    padding: 15px  0 20px;}
+.numero{
+    font: 700 33px 'sans-bold', sans-serif;}
+.texto-caixa{
+    font: 400 24px 'roboto-regular', sans-serif;
+padding: 5px 0;}
+.azul{
+    color:#106EEA;
+    margin-left: 15px;}
+.titulo-cor{
+    display: flex;
+    justify-content: center;}

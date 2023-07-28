@@ -153,7 +153,7 @@ padding: 5px 0;}
     font:400 19px 'roboto-regular', sans-serif;
     padding-bottom: 25px;}
 .caixas-img{
-    justify-content: space-between;
+    justify-content: space-around;
     width: 100%;
     margin-bottom: 100px;}
 .centro{
@@ -183,15 +183,15 @@ input{
     color: #C1C1C1;}
 .seu-nome,
 .email{
-    width: 200px;
-    height: 63px;}
+    width: 250px;
+    height: 60px;}
 .assunto{
-    width: 450px;
-    height: 63px;
+    width: 540px;
+    height: 60px;
     margin: 30px 0;}
 .mensagem{
-    width: 450px;
-    height: 159px;}
+    width: 540px;
+    height: 160px;}
 .seu-nome{
     margin-right: 40px;}
 .form{
@@ -207,11 +207,11 @@ button{
     height: 60px;
     font: 600 29px 'roboto-bold', sans-serif;
     color: #fff;
-    margin-top: 25px;}
+    margin-top: 25px;
+    cursor: pointer;}
 /* ************* */
 #footer{
-    background: #1150A3;
-    }
+    background: #1150A3;}
 #footer .menu{
     flex-direction: column;
     display: flex;}
